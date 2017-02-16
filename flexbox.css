@@ -1,0 +1,49 @@
+//prendre des photos de taille 320*200
+//la taille de la barre de navigation à gauche est de 100px.
+
+body {
+	display: flex;
+	flex-direction: column; /*mettre les boites en colonnes*/
+
+}
+
+
+#page {
+	display: flex; /*pour mettre en ligne*/
+	flex: 1; /*pour qu'il prenne toute la largeur*/
+
+}
+
+
+
+nav {
+	background-color: #ccccff;
+	width: 100px;
+
+}
+
+
+
+
+#conteneur {
+	flex: 1 1 auto; /*pour prendre toute la place disponible*/
+	background-color: #8fbc8f;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+article {
+	display: flex;
+}
+
+p{
+	padding: 0 5px.
+}
+
+header , footer {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ffeebb;
+}
